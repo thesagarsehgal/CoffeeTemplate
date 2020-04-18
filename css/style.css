@@ -1,0 +1,45 @@
+.nav-wrapper{
+	background-color: #654037;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #654037;	
+}
+
+.move{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.parallax-container{
+	min-height: 280px;
+	height: auto;
+}
+
+.icon-coffee{
+	color: #654037;
+}
+
+.page-footer{
+	background-color: #654037;
+}
+
+.footer-copyright{
+	background-color: #462822 !important;	
+}
+
+.small-icons-side{
+	margin-right: 32px;
+	color: #3F2400 !important;
+}
+
+.small-icons-main{
+	/* width: 2px; */
+	margin-left: 15px;
+	color: white !important;
+}
+
+.sm{
+	margin: 0px;
+	margin-right: 10px;
+}
