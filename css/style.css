@@ -44,3 +44,13 @@
 	margin: 0px;
 	margin-right: 10px;
 }
+
+.casual{
+	background-color: white;
+	color: black;
+}
+
+.coffee{
+	background-color: #b87668;
+	color: white;
+}

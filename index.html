@@ -31,7 +31,7 @@
 	<!-- custom js -->
 	<script src="js/loader.js"></script>
 </head>
-<body>
+<body class="casual">
 	<section class="fnavbar">
 		<nav class="nav-fixed row">
 			<div class="col l1"></div>
@@ -69,6 +69,13 @@
 							<i class="right small material-icons small-icons-main">perm_phone_msg</i>
 						</a>
 					</li>
+					<li>
+						<a href="#" onclick="coffeeMode();">
+							<span class="togglebtn"> Coffee Mode</span>
+							<i class="right small material-icons small-icons-main">brightness_high</i>
+						</a>
+					</li>
+					
 				</ul>
 			</div>
 			<div class="col l1 s0"></div>
@@ -104,6 +111,12 @@
 					<i class="left small material-icons small-icons-side">perm_phone_msg</i>
 				</a>
 			</li>
+			<li>
+				<a href="#" onclick="coffeeMode();">
+					<span class="togglebtn"> Coffee Mode</span>
+					<i class="left small material-icons small-icons-side">brightness_high</i>
+				</a>
+			</li>
 		</ul>
 	</section>
 	
@@ -136,7 +149,7 @@
 	</section>
 
 	<section class="description">
-		<div class="section white center">
+		<div class="section center">
 			<h2 class="header">Cafe King - Ultimate quality coffee</h2>
 			<div class="row container center">
 				<div class="col center l8 s12 move">
@@ -146,6 +159,10 @@
 					<img src="images/coffee.png" height=200 width="auto" alt="coffe cup image">
 				</div>
 			</div>
+			<!-- <div class="row center">
+				<a class="btn waves-effect waves-light" id="togglebtn" style="background-color:#654037" onclick="coffeeMode()">Shift to Coffee Mode</a>
+			</div> -->
+			
 		</div>
 	</section>
 
@@ -208,7 +225,7 @@
 	</section>
 
 	<section class="fabout">
-		<div class="section white center">
+		<div class="section center">
 			<div class="row container">
 				<h2 class="header">About Us</h2>
 				<p class="gery-text text-darken-3">
@@ -237,8 +254,8 @@
 	</section>
 
 	<section class="freviews">
-		<div class="section white center">
-			<h3 class="header">What out customers say</h3>			
+		<div class="section center">
+			<h3 class="header">What our customers say</h3>			
 				<div class="carousel">
 					<a class="carousel-item" href="#">
 						<div class="row" >
@@ -362,7 +379,7 @@
 	</section>
 
 	<section class="infomodal">
-		<div id="modal3" class="modal">
+		<div id="modal3" class="modal casual">
 			<div class="modal-content">
 				<h4 id="info-modal-heading">Link Disabled</h4>
 				<p class="info-modal-heading">Sorry!! all links are disabled as of now</p>
