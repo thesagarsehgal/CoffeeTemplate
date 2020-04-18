@@ -1,5 +1,6 @@
-.nav-wrapper{
+.nav-fixed{
 	background-color: #654037;
+	margin: 0px;
 }
 
 .slider .indicators .indicator-item.active{
