@@ -18,10 +18,12 @@ function coffeeMode(){
 		body.removeClass("coffee");
 		body.addClass("casual");
 		btn.text("Coffee Mode");
+		btn.css("padding","2px");
 	}
 	else if(body.hasClass("casual")===true){
 		body.removeClass("casual");
 		body.addClass("coffee");
 		btn.text("Normal Mode");
+		btn.css("padding","0px");
 	}
 }
